@@ -80,15 +80,15 @@ jobs:
         working-directory: ImmortalWrt
         run: ls -alhF /home/runner/work/ImmortalWrt/ImmortalWrt/ImmortalWrt
 
-        - name: ls -alhF
+      - name: ls -alhF
         working-directory: ImmortalWrt
         run: ls -alhF /home/runner/work/ImmortalWrt/ImmortalWrt/
 
-        - name: ls -alhF
+      - name: ls -alhF
         working-directory: ImmortalWrt
         run: ls -alhF /home/runner/work/ImmortalWrt/
 
-        - name: ls -alhF
+      - name: ls -alhF
         working-directory: ImmortalWrt
         run: ls -alhF /home/runner/work/
 
