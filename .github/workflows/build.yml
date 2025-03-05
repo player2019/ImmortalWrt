@@ -104,7 +104,7 @@ jobs:
         
       - name: 移动 neobird 到目标位置
         working-directory: ImmortalWrt
-        run: mv luci-theme-neobird ImmortalWrt/feeds/luci/themes/
+        run: mv ImmortalWrt/luci-theme-neobird ImmortalWrt/feeds/luci/themes/
 
       - name: 安装 neobird
         working-directory: ImmortalWrt
