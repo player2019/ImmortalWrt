@@ -11,11 +11,10 @@ grep -Fsq '/ overlay ro,' /proc/mounts && {
 export PATH="%PATH%"
 export HOME=$(grep -e "^${USER:-root}:" /etc/passwd | cut -d ":" -f 6)
 export HOME=${HOME:-/root}
-export PS1='\u@\h:\w\$ '
+#export PS1='\u@\h:\w\$ '
 export ENV=/etc/shinit
 
 alias date='date +"%Y-%m-%d %A %H:%M:%S"'
-alias btop='btop --utf-force'
 
 PS1='\[\e[33;40m\][\u@\h \W]\$: \[\e[m\]'
 
