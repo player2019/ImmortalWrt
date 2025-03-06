@@ -124,6 +124,9 @@ jobs:
 
       - name: 复制 sysauth.ut 到 ImmortalWrt 仓库
         run: cp -f sysauth.ut ImmortalWrt/feeds/luci/modules/luci-base/ucode/template/
+
+      - name: 复制 Argon 登陆页到 ImmortalWrt 仓库
+        run: cp -f sysauth.htm ImmortalWrt/feeds/luci/themes/luci-theme-argon/luasrc/view/themes/argon
         
       - name: 复制 watchcat.js 到 watchcat
         run: cp -f watchcat.js ImmortalWrt/feeds/luci/applications/luci-app-watchcat/htdocs/luci-static/resources/view/
