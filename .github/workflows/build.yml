@@ -120,7 +120,7 @@ jobs:
         run: cp -f sysctl-nf-conntrack.conf ImmortalWrt/package/kernel/linux/files/
 
       - name: 复制 profile 和 passwd 到 ImmortalWrt 仓库
-        run: cp -f profile passwd ImmortalWrt/package/base-files/files/etc/
+        run: cp -f profile ImmortalWrt/package/base-files/files/etc/
 
       - name: 复制 sysauth.ut 到 ImmortalWrt 仓库
         run: cp -f sysauth.ut ImmortalWrt/feeds/luci/modules/luci-base/ucode/template/
