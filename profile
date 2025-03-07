@@ -29,7 +29,7 @@ esac
 
 alias l='ls -lF'
 alias la='ls -a'
-alias ll='ls -alhF'
+#alias ll='ls -alhF'
 alias ls='ls --color=auto'
 
 [ -z "$KSH_VERSION" -o \! -s /etc/mkshrc ] || . /etc/mkshrc
@@ -55,3 +55,5 @@ in order to prevent unauthorized SSH logins.
 --------------------------------------------------
 EOF
 fi
+
+alias ll='ls -alhF'
